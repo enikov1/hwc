@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Account — Account details — Verified ID</title>
+    <meta name="theme-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/bootstrap.css">
+	<link rel="stylesheet" href="styles/main.min.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="row header-top">
+              <div class="col-xs-2 hidden-md hidden-lg">
+                <button class="burger" type="button"><span></span></button>
+              </div>
+              <div class="col-xs-8 col-md-2 col-md-offset-5"><a class="logo" href="#"><img src="./img/logo.png" alt="logo"></a></div>
+              <div class="col-md-2 col-md-offset-3 hidden-xs">
+                <div class="header-col-split flex-end"><a class="item" href="#">Register</a><a class="item" href="#">Sign in</a></div>
+              </div>
+            </div>
+            <div class="row header-bottom">
+              <div class="col-md-1">
+                <div class="header-col-split flex-start hidden-xs"><a class="item" href="#">En</a><a class="item" href="#">De</a></div>
+                <div class="logo-smile"><a class="logo" href="#"><img src="./img/logo-smile.png" alt="logo"></a></div>
+              </div>
+              <div class="col-md-8 col-md-offset-1 hidden-xs">
+                <nav class="header-nav">
+                  <ul>
+                    <li> <a href="#">START BROWSING</a></li>
+                    <li> <a href="#">HOW IT WORKS</a></li>
+                    <li><a href="#">BRANDS</a></li>
+                    <li><a href="#">MAKE A WISH</a></li>
+                    <li> <a href="#">ABOUT</a></li>
+                    <li> <a href="#">CONTACT</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="col-md-2">
+                <div class="header-col-split-button flex-end">
+                  <div class="relative hidden-xs"><a class="item" href="#"><i class="icon icon-empty-whitelist"></i><span class="ellips">5</span></a>
+                    <div class="appear-overlay">
+                      <div class="appear-header"><span>JUST ADDED TO YOUR WISHLIST</span></div>
+                      <div class="appear-item">
+                        <div class="image"><img src="./img/card-6.png" alt="card"></div>
+                        <div class="info">
+                          <div class="title">BOTTEGA VENETA</div>
+                          <div class="descr">The Pouch large leather clutch from €199</div>
+                        </div><a class="button-red" href="#">GO TO MY WISHLIST</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="relative lr"><a class="item last" href="#" id="bakc-active"><i class="icon icon-shop"></i><span class="ellips">3</span></a>
+                    <div class="appear-overlay">
+                      <div class="appear-header"><span>JUST ADDED TO YOUR BAG</span></div>
+                      <div class="appear-item">
+                        <div class="image"><img src="./img/card-6.png" alt="card"></div>
+                        <div class="info">
+                          <div class="title">BOTTEGA VENETA</div>
+                          <div class="descr">The Pouch large leather clutch 5 days  |  27-31 Aug 2020 €199</div>
+                        </div><a class="button-red" href="#">CHECKOUT</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <aside class="aside">
+            <div class="aside-header"><span class="title">My account</span></div>
+            <ul class="aside-list">
+              <li><a href="#">MY ORDERS</a></li>
+              <li><a href="#">WISHLIST</a></li>
+              <li><a href="#">ADDRESS BOOK</a></li>
+              <li class="active"><a href="#">ACCOUNT DETAILS</a><i class="icon icon-error"></i></li>
+            </ul>
+          </aside>
+        </div>
+        <div class="col-md-8 col-md-offset-1">
+          <div class="table current">
+            <div class="row">
+              <div class="col-md-12"><span class="table-header">CHANGE YOUR E-MAIL ADDRESS</span></div>
+            </div>
+            <div class="row mt-40 flex">
+              <div class="col-md-4">
+                <div class="form-group">
+                  <input class="field" type="password" name="title" placeholder="CURRENT PASSWORD*">
+                  <input class="field" type="email" name="first_name" placeholder="NEW E-MAIL ADDRESS*">
+                  <input class="field" type="email" name="last_name" placeholder="CONFIRM E-MAIL ADDRESS*">
+                </div>
+              </div>
+              <div class="col-md-3 col-md-offset-5 mt-auto">
+                <div class="form-group"><span class="text mt-40 text-left">*Mandatory fields</span>
+                  <div class="form-group-button flex flex-center mt-50">
+                    <button class="button-red button-default" type="submit">SAVE CHANGES</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="table">
+            <div class="row">
+              <div class="col-md-12"><span class="table-header">CHANGE YOUR PASSWORD</span></div>
+            </div>
+            <div class="row mt-40 flex">
+              <div class="col-md-4">
+                <div class="form-group">
+                  <input class="field" type="password" name="title" placeholder="CURRENT PASSWORD*">
+                  <input class="field" type="password" name="first_name" placeholder="NEW PASSWORD**">
+                  <input class="field" type="password" name="last_name" placeholder="CONFIRM NEW PASSWORD**">
+                </div>
+              </div>
+              <div class="col-md-3 col-md-offset-5 mt-auto">
+                <div class="form-group"><span class="text mt-40 text-left">*Mandatory fields</span>
+                  <div class="form-group-button flex flex-center mt-50">
+                    <button class="button-red button-default" type="submit">SAVE CHANGES</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="table">
+            <div class="row">
+              <div class="col-md-12 flex flex-sb items-center"><span class="table-header">CHANGE YOUR PERSONAL DETAILS</span>
+                <div class="message-error">
+                  <div class="icon"><i class="icon icon-error"></i></div><span>Please remember to verify your ID</span>
+                </div>
+              </div>
+            </div>
+            <div class="row mt-40 flex">
+              <div class="col-md-4">
+                <div class="form-group">
+                  <input class="field" type="text" name="title" placeholder="EMMA">
+                  <input class="field" type="text" name="first_name" placeholder="CURREN">
+                  <div class="label"><span class="text">DATE OF BIRTH*</span>
+                    <div class="fieldset field-date">
+                      <select class="custom-select" name="dd">
+                        <option value="1">DD</option>
+                        <option value="2">DD 2</option>
+                        <option value="3">DD 3</option>
+                      </select>
+                      <select class="custom-select" name="mm">
+                        <option value="1">MM</option>
+                        <option value="2">MM 2</option>
+                        <option value="3">MM 3</option>
+                      </select>
+                      <select class="custom-select" name="yyyy">
+                        <option value="1">YYYY</option>
+                        <option value="2">YYYY 2</option>
+                        <option value="3">YYYY 3</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="label"><span class="text">ID VERFICIATION</span>
+                    <div class="text-light w-thin">Your ID has been verified and stored successfully on our third-party partner site. If your ID is about to expire and you will be issued a new ID, please update.</div>
+                  </div>
+                  <div class="form-group-button mt-30">
+                    <button class="button-white button-default" type="submit">UPDATE YOUR ID</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 col-md-offset-5 mt-auto">
+                <div class="form-group"><span class="text mt-40 text-left">*Mandatory fields</span>
+                  <div class="form-group-button flex flex-center mt-50">
+                    <button class="button-red button-default" type="submit">SAVE CHANGES</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="row flex-col-xs">
+          <div class="col-xs-12 col-md-4 order-xs-first">
+            <div class="flex flex-wrap">
+              <ul class="nav-list">
+                <li><a href="#">START BROWSING</a></li>
+                <li><a href="#">HOW IT WORKS</a></li>
+                <li><a href="#">MAKE A WISH</a></li>
+                <li><a href="#">NEED STYLE ADVICE?</a></li>
+              </ul>
+              <ul class="nav-list">
+                <li><a href="#">ABOUT US</a></li>
+                <li><a href="#">WHY RENTING?</a></li>
+                <li><a href="#">SHIPPING & RETURNS</a></li>
+                <li><a href="#">CONTACT</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-2 col-md-offset-1 order-xs-2 hidden-xs"><a class="logo" href="#"><img src="./img/logo-round.png" alt="logo-footer"></a></div>
+          <div class="col-xs-12 col-md-3 col-md-offset-2 order-xs-1">
+            <div class="footer-form">
+              <form action="">
+                <label class="title" for="subs">SUBSCRIBE TO OUR NEWSLETTER</label>
+                <div class="fieldset fieldset-blend">
+                  <input class="field" type="text" name="subs" placeholder="Your e-mail">
+                  <button class="button" type="submit">
+                    <div class="icon icon-send"></div>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="row footer-bottom">
+          <div class="col-xs-10 col-md-3 order-xs-first">
+            <div class="items-split">
+              <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Terms & conditions</a></li>
+                <li><a href="#">Privacy</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xs-12 col-md-2 col-md-offset-2 order-xs-last"><a class="logo hidden-md hidden-lg" href="#"><img src="./img/logo-round.png" alt="logo-footer"></a><span class="copy">&copy; Handle with Care 2020</span></div>
+          <div class="col-xs-2 col-md-3 col-md-offset-2 order-xs-1">
+            <ul class="items-list">
+              <li><a href="#">
+                  <div class="image"><i class="icon icon-whatsapp"></i></div><span class="hidden-xs">+4915154765546</span></a></li>
+              <li><a href="#">
+                  <div class="image"><i class="icon icon-instagram"></i></div><span class="hidden-xs">handlewithcare.rent</span></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row footer-images hidden-xs">
+          <div class="col-md-2"><img src="./img/footer/1.png" alt="footer"></div>
+          <div class="col-md-2"><img src="./img/footer/2.png" alt="footer"></div>
+          <div class="col-md-2"><img src="./img/footer/3.png" alt="footer"></div>
+          <div class="col-md-2"><img src="./img/footer/4.png" alt="footer"></div>
+          <div class="col-md-2"><img src="./img/footer/5.png" alt="footer"></div>
+          <div class="col-md-2"><img src="./img/footer/2.png" alt="footer"></div>
+        </div>
+      </div>
+    </footer>
+    <div class="menu-mobile">
+      <div class="menu-mobile-button"><i class="icon-arrow-left"></i></div>
+      <div class="menu-mobile-wrap">
+        <ul class="menu-top">
+          <li><a href="#">START BROWSING</a></li>
+          <li><a href="#">HOW IT WORKS</a></li>
+          <li><a href="#">BRANDS</a></li>
+          <li><a href="#">MAKE A WISH</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">CONTACT</a></li>
+          <li><a href="#">NEED STYLE ADVICE? </a></li>
+          <li><a href="#">WHY RENTING?</a></li>
+          <li><a href="#">SHIPPING & RETURNS</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">Register</a></li>
+          <li><a href="#">Sign in</a></li>
+        </ul>
+        <div class="header-col-split flex-start"><a class="item" href="#">En</a><a class="item" href="#">De</a></div>
+      </div>
+    </div>
+    <button class="button-top" type="button"><i class="icon icon-arrow-right"></i></button>
+    <div class="modal-base" id="filter-modal">
+      <div class="modal-wrap">
+        <div class="modal-close">
+          <button type="button"><i class="icon-close"></i></button>
+        </div>
+        <div class="modal-content">
+          <div class="container">
+            <div class="row sort">
+              <div class="col-xs-12">
+                <div class="selected">
+                  <div class="field field-option"><span>A-Z BRANDS</span>
+                    <button class="arrow" type="button">
+                      <div class="icon icon-arrow-left"></div>
+                    </button>
+                  </div>
+                  <div class="field-option-list">
+                    <div class="scrollbar-inner">
+                      <div class="field-box">
+                        <div class="field-checked">
+                          <label for="all">
+                            <input type="radio" id="all" name="all"><span class="check"></span><span class="title">All</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="all2">
+                            <input type="radio" id="all2" name="all"><span class="check"></span><span class="title">Top Handle Bags</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="all3">
+                            <input type="radio" id="all3" name="all"><span class="check"></span><span class="title">Clutches</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="all4">
+                            <input type="radio" id="all4" name="all"><span class="check"></span><span class="title">All</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="all5">
+                            <input type="radio" id="all5" name="all"><span class="check"></span><span class="title">All</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="all7">
+                            <input type="radio" id="all7" name="all"><span class="check"></span><span class="title">Top Handle Bags</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="all8">
+                            <input type="radio" id="all8" name="all"><span class="check"></span><span class="title">Clutches</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="all9">
+                            <input type="radio" id="all9" name="all"><span class="check"></span><span class="title">All</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="all10">
+                            <input type="radio" id="all10" name="all"><span class="check"></span><span class="title">Top Handle Bags</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="all11">
+                            <input type="radio" id="all11" name="all"><span class="check"></span><span class="title">Clutches</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="all12">
+                            <input type="radio" id="all12" name="all"><span class="check"></span><span class="title">All</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="all13">
+                            <input type="radio" id="all13" name="all"><span class="check"></span><span class="title">Top Handle Bags</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="all14">
+                            <input type="radio" id="all14" name="all"><span class="check"></span><span class="title">Clutches</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="all15">
+                            <input type="radio" id="all15" name="all"><span class="check"></span><span class="title">All</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="all16">
+                            <input type="radio" id="all16" name="all"><span class="check"></span><span class="title">Top Handle Bags</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="al17">
+                            <input type="radio" id="al17" name="all"><span class="check"></span><span class="title">Clutches</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="all18">
+                            <input type="radio" id="all18" name="all"><span class="check"></span><span class="title">Top Handle Bags</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="all19">
+                            <input type="radio" id="all19" name="all"><span class="check"></span><span class="title">Clutches</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="all20">
+                            <input type="radio" id="all20" name="all"><span class="check"></span><span class="title">All</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="all21">
+                            <input type="radio" id="all21" name="all"><span class="check"></span><span class="title">Top Handle Bags</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="all22">
+                            <input type="radio" id="all22" name="all"><span class="check"></span><span class="title">Clutches</span>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12">
+                <div class="selected">
+                  <div class="field field-option"><span>BY STYLE</span>
+                    <button class="arrow" type="button">
+                      <div class="icon icon-arrow-left"></div>
+                    </button>
+                  </div>
+                  <div class="field-option-list">
+                    <div class="scrollbar-inner">
+                      <div class="field-box">
+                        <div class="field-checked">
+                          <label for="a1">
+                            <input type="checkbox" id="a1" name="all"><span class="check"></span><span class="title">All</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="a2">
+                            <input type="checkbox" id="a2" name="all2"><span class="check"></span><span class="title">Top Handle Bags</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="a3">
+                            <input type="checkbox" id="a3" name="all3"><span class="check"></span><span class="title">Clutches</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="a4">
+                            <input type="checkbox" id="a4" name="all4"><span class="check"></span><span class="title">All</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="a5">
+                            <input type="checkbox" id="a5" name="all5"><span class="check"></span><span class="title">All</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="a5">
+                            <input type="checkbox" id="a5" name="all6"><span class="check"></span><span class="title">Top Handle Bags</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="a6">
+                            <input type="checkbox" id="a6" name="all"><span class="check"></span><span class="title">Clutches</span>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12">
+                <div class="selected">
+                  <div class="field field-option"><span>BY COLOUR</span>
+                    <button class="arrow" type="button">
+                      <div class="icon icon-arrow-left"></div>
+                    </button>
+                  </div>
+                  <div class="field-option-list">
+                    <div class="scrollbar-inner">
+                      <div class="field-box">
+                        <div class="field-checked">
+                          <label for="q1">
+                            <input type="radio" id="q1" name="all"><span class="check"></span><span class="title">All</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="q2">
+                            <input type="radio" id="q2" name="all"><span class="check"></span><span class="title">Top Handle Bags</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="q3">
+                            <input type="radio" id="q3" name="all"><span class="check"></span><span class="title">Clutches</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="q4">
+                            <input type="radio" id="q4" name="all"><span class="check"></span><span class="title">All</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="q5">
+                            <input type="radio" id="q5" name="all"><span class="check"></span><span class="title">All</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="q6">
+                            <input type="radio" id="q6" name="all"><span class="check"></span><span class="title">Top Handle Bags</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="q7">
+                            <input type="radio" id="q7" name="all"><span class="check"></span><span class="title">Clutches</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="q8">
+                            <input type="radio" id="q8" name="all"><span class="check"></span><span class="title">All</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="q9">
+                            <input type="radio" id="q9" name="all"><span class="check"></span><span class="title">Top Handle Bags</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="q10">
+                            <input type="radio" id="q10" name="all"><span class="check"></span><span class="title">Clutches</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="q11">
+                            <input type="radio" id="q11" name="all"><span class="check"></span><span class="title">All</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="q12">
+                            <input type="radio" id="q12" name="all"><span class="check"></span><span class="title">Top Handle Bags</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="q13">
+                            <input type="radio" id="q13" name="all"><span class="check"></span><span class="title">Clutches</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="q14">
+                            <input type="radio" id="q14" name="all"><span class="check"></span><span class="title">All</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="q15">
+                            <input type="radio" id="q15" name="all"><span class="check"></span><span class="title">Top Handle Bags</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="q16">
+                            <input type="radio" id="q16" name="all"><span class="check"></span><span class="title">Clutches</span>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12">
+                <div class="selected">
+                  <div class="field field-option"><span>BY OCCASION</span>
+                    <button class="arrow" type="button">
+                      <div class="icon icon-arrow-left"></div>
+                    </button>
+                  </div>
+                  <div class="field-option-list">
+                    <div class="scrollbar-inner">
+                      <div class="field-box">
+                        <div class="field-checked">
+                          <label for="e1">
+                            <input type="radio" id="e1" name="all"><span class="check"></span><span class="title">All</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="e2">
+                            <input type="radio" id="e2" name="all"><span class="check"></span><span class="title">Top Handle Bags</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="e3">
+                            <input type="radio" id="e3" name="all"><span class="check"></span><span class="title">Clutches</span>
+                          </label>
+                        </div>
+                        <div class="field-checked">
+                          <label for="e4">
+                            <input type="radio" id="e4" name="all"><span class="check"></span><span class="title">All</span>
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="text-center"><a class="modal-link" href="#">Clear filters</a></div>
+              </div>
+              <div class="col-xs-12">
+                <div class="text-center"><a class="button-red" href="#">APPLY</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-base" id="added-to-bag">
+      <div class="modal-wrap">
+        <div class="modal-close">
+          <button type="button"><i class="icon-close"></i></button>
+        </div>
+        <div class="modal-content">
+          <div class="appear-overlay">
+            <div class="appear-header"><span>JUST ADDED TO YOUR BAG</span></div>
+            <div class="appear-item">
+              <div class="image"><img src="./img/card-6.png" alt="card"></div>
+              <div class="info">
+                <div class="title">BOTTEGA VENETA</div>
+                <div class="descr">The Pouch large leather clutch 5 days  |  27-31 Aug 2020 €199</div>
+              </div><a class="button-red" href="#">CHECKOUT</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal-base" id="added-to-whitelist">
+      <div class="modal-wrap">
+        <div class="modal-close">
+          <button type="button"><i class="icon-close"></i></button>
+        </div>
+        <div class="modal-content">
+          <div class="appear-overlay">
+            <div class="appear-header"><span>JUST ADDED TO YOUR WISHLIST</span></div>
+            <div class="appear-item">
+              <div class="image"><img src="./img/card-6.png" alt="card"></div>
+              <div class="info">
+                <div class="title">BOTTEGA VENETA</div>
+                <div class="descr">The Pouch large leather clutch from €199</div>
+              </div><a class="button-red" href="#">GO TO MY WISHLIST</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+	<!-- libs -->
+	
+	<script src="./js/libs/jquery.min.js"></script>
+	<script src="./js/libs/moment.min.js"></script>
+	<script src="./js/libs/jquery.customSelect.min.js"></script>
+	<script src="./js/libs/bootstrap-datepicker.min.js"></script>
+	<script src="./js/libs/jquery.scrollbar.min.js"></script>
+	<script src="./js/libs/owl.carousel.min.js"></script>
+	
+	<script src="./js/main.js"></script>
+  </body>
+</html>
